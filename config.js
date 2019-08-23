@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCGBCiJkJYCyWa_awx1D4Bx5fGtCtnIGOM",
+    apiKey: process.env.KEY,
     authDomain: "skate-app-e9863.firebaseapp.com",
     databaseURL: "https://skate-app-e9863.firebaseio.com",
     projectId: "skate-app-e9863",
